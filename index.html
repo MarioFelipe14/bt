@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/lib/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-item active" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2020/09/04/16/18/mountains-5544365_1280.jpg" alt="foto de uma montanha">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2022/03/27/14/32/rotterdam-7095262_1280.jpg" alt="foto de uma cidade">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2024/06/22/15/56/boat-8846578_1280.jpg" alt="foto de um barco">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next"></button>
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        cabeçalho
+                    </div>
+                    <img src="https://via.placeholder.com/100x100">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        cabeçalho
+                    </div>
+                    <img src="https://via.placeholder.com/100x100">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        cabeçalho
+                    </div>
+                    <img src="https://via.placeholder.com/100x100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
